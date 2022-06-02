@@ -11,7 +11,7 @@ setup(name='pygcn',
       license='MIT',
       install_requires=['numpy',
                         'torch',
-                        'scipy'
+                        'scipy', 'syft', 'matplotlib'
                         ],
       package_data={'pygcn': ['README.md']},
       packages=find_packages())
